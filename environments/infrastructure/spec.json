@@ -1,0 +1,14 @@
+{
+  "apiVersion": "tanka.dev/v1alpha1",
+  "kind": "Environment",
+  "metadata": {
+    "name": "environments/infrastructure",
+    "namespace": "environments/infrastructure/main.jsonnet"
+  },
+  "spec": {
+    "apiServer": "https://127.0.0.1:6444",
+    "namespace": "infrastructure",
+    "resourceDefaults": {},
+    "expectVersions": {}
+  }
+}
