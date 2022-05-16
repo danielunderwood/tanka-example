@@ -37,8 +37,9 @@ First, you need to edit the `spec.json` files to your appropriate API server. Th
 
 ```shell
 tk apply environments/infrastructure
-# The infrastructure environments needs to be deployed twice on the first attempt since it installs and references cert-manager CRDs
-# It's probably simple enough to fix this with an additional environment
+# The infrastructure environments needs to be deployed twice on the first attempt
+# since it installs and references cert-manager CRDs. It's probably simple enough
+# to fix this with an additional environment
 tk apply environments/infrastructure
 tk apply environments/monitoring
 tk apply environments/application
